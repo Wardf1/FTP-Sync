@@ -11,7 +11,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = int(os.getenv("DISCORD_CHANNEL_ID"))
 
 # Folder monitorowany
-FOLDER_TO_WATCH = "download_folder_path"
+FOLDER_TO_WATCH = os.getenv("DOWNLOAD_FOLDER")
 
 # Pliki logów
 FTP_SYNC_LOG = os.path.join(FOLDER_TO_WATCH, "ftp_sync.log")
