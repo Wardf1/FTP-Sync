@@ -3,9 +3,9 @@ import logging
 from pathlib import Path
 
 # Konfiguracja
-FOLDER_PATH = "/mnt/sda/bckp/backups"  # Zmień na właściwą ścieżkę
+FOLDER_PATH = "folder_backup"  # Zmień na właściwą ścieżkę
 LIMIT_GB = 1000  # Limit w GB
-LOG_FILE = "/mnt/sda/bckp/backups/folder_cleanup.log"  # Gdzie logować operacje
+LOG_FILE = "folder_logger"  # Gdzie logować operacje
 
 # Konfiguracja loggera
 logging.basicConfig(
